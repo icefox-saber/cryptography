@@ -173,11 +173,11 @@ $$
     N(6)
     & = \frac{{6 \choose 2}{4 \choose 2}{2 \choose 2}}{P(3,3)} + \frac{{6 \choose 2}{4 \choose 2}{2 \choose 2}}{P(2,2)} + \frac{{6 \choose 4}{2 \choose 2}}{P(1,1)} + \frac{{6 \choose 6}}{P(0,0)}\cr
     & = \frac{15 * 6 }{6} + \frac{15 * 6}{2} + \frac{15}{1} + \frac{1}{1}\cr
+    & = 76\cr
     N(5)
     & = \frac{{5 \choose 1}{4 \choose 2}{2 \choose 2}}{P(2,2)} + \frac{{5 \choose 3}{2 \choose 2}}{P(1,1)} + \frac{{5 \choose 5}}{P(0,0)}\cr
     & = \frac{5 * 6}{2} + \frac{10}{1} + \frac{1}{1}\cr
     & = 26\cr
-    & = 76\cr
 \end{aligned}
 $$
 
