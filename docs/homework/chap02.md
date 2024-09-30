@@ -1,6 +1,6 @@
 # chap02
 
-[在静态文档中查看本文件](https://icefox-saber.github.io/cryptography/chap02)
+[在静态文档中查看本文件](https://icefox-saber.github.io/cryptography/homework/chap02)
 
 ![chap02](../img/chap02.png)
 

@@ -1,6 +1,6 @@
 # chap01
 
-[在静态文档中查看本文件](https://icefox-saber.github.io/cryptography/chap01)
+[在静态文档中查看本文件](https://icefox-saber.github.io/cryptography/homework/chap01)
 
 ## 1.1
 

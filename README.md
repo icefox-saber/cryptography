@@ -13,3 +13,9 @@ CS2233 陈永俊的密码学(CS3314) 作业/笔记/代码
 ## 学生诚信
 
 仅供参考，请勿抄袭。
+
+## Markdown with latex and chinese to pdf
+
+```shell
+pandoc chap02.md -o chap02.pdf --pdf-engine=xelatex --variable CJKmainfont="Noto Sans Mono CJK TC"
+```
