@@ -4,3 +4,4 @@ docs/code/test.cpp
 .vscode/
 *.out
 *.txt
+*.pdf
