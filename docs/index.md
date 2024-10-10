@@ -23,4 +23,3 @@ Licensed under the MIT License.
 ```shell
 pandoc chap02.md -o chap02.pdf --pdf-engine=xelatex --variable CJKmainfont="Noto Sans Mono CJK TC"
 ```
-
