@@ -12,24 +12,30 @@
       
       
       
+        <link rel="canonical" href="https://icefox-saber.github.io/cryptography/homework/chap03/">
       
       
+        <link rel="prev" href="../chap02/">
       
-      <link rel="icon" href="/cryptography/assets/favicon.jpeg">
+      
+        <link rel="next" href="../../note/chap02/">
+      
+      
+      <link rel="icon" href="../../assets/favicon.jpeg">
       <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.30">
     
 	<meta name="format-detection" content="telephone=no">
 
     
       
-        <title>cryptography</title>
+        <title>chap03 - cryptography</title>
       
     
     
-      <link rel="stylesheet" href="/cryptography/assets/stylesheets/main.3cba04c6.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.3cba04c6.min.css">
       
         
-        <link rel="stylesheet" href="/cryptography/assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -50,9 +56,9 @@
     
       <link rel="stylesheet" href="https://unpkg.com/katex@0/dist/katex.min.css">
     
-      <link rel="stylesheet" href="/cryptography/css/custom.css">
+      <link rel="stylesheet" href="../../css/custom.css">
     
-    <script>__md_scope=new URL("/cryptography/",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
   
@@ -87,6 +93,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#chap03" class="md-skip">
+          跳转至
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -99,7 +110,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="页眉">
-    <a href="/cryptography/." title="cryptography" class="md-header__button md-logo" aria-label="cryptography" data-md-component="logo">
+    <a href="../.." title="cryptography" class="md-header__button md-logo" aria-label="cryptography" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="m57.7 193 9.4 16.4c8.3 14.5 21.9 25.2 38 29.8l57.9 16.5c17.2 4.9 29 20.6 29 38.5v39.9c0 11 6.2 21 16 25.9s16 14.9 16 25.9v39c0 15.6 14.9 26.9 29.9 22.6 16.1-4.6 28.6-17.5 32.7-33.8l2.8-11.2c4.2-16.9 15.2-31.4 30.3-40l8.1-4.6c15-8.5 24.2-24.5 24.2-41.7v-8.3c0-12.7-5.1-24.9-14.1-33.9l-3.9-3.9c-9-9-21.2-14.1-33.9-14.1H257c-11.1 0-22.1-2.9-31.8-8.4l-34.5-19.7c-4.3-2.5-7.6-6.5-9.2-11.2-3.2-9.6 1.1-20 10.2-24.5l5.9-3c6.6-3.3 14.3-3.9 21.3-1.5l23.2 7.7c8.2 2.7 17.2-.4 21.9-7.5 4.7-7 4.2-16.3-1.2-22.8l-13.6-16.3c-10-12-9.9-29.5.3-41.3l15.7-18.3c8.8-10.3 10.2-25 3.5-36.7l-2.4-4.2c-3.5-.2-6.9-.3-10.4-.3-92.8 0-171.5 60.9-198.2 145zM464 256c0-36.8-9.6-71.4-26.4-101.5L412 164.8c-15.7 6.3-23.8 23.8-18.5 39.8l16.9 50.7c3.5 10.4 12 18.3 22.6 20.9l29.1 7.3c1.2-9 1.8-18.2 1.8-27.5zM0 256a256 256 0 1 1 512 0 256 256 0 1 1-512 0z"/></svg>
@@ -119,7 +130,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              chap03
             
           </span>
         </div>
@@ -232,7 +243,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="导航栏" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/cryptography/." title="cryptography" class="md-nav__button md-logo" aria-label="cryptography" data-md-component="logo">
+    <a href="../.." title="cryptography" class="md-nav__button md-logo" aria-label="cryptography" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="m57.7 193 9.4 16.4c8.3 14.5 21.9 25.2 38 29.8l57.9 16.5c17.2 4.9 29 20.6 29 38.5v39.9c0 11 6.2 21 16 25.9s16 14.9 16 25.9v39c0 15.6 14.9 26.9 29.9 22.6 16.1-4.6 28.6-17.5 32.7-33.8l2.8-11.2c4.2-16.9 15.2-31.4 30.3-40l8.1-4.6c15-8.5 24.2-24.5 24.2-41.7v-8.3c0-12.7-5.1-24.9-14.1-33.9l-3.9-3.9c-9-9-21.2-14.1-33.9-14.1H257c-11.1 0-22.1-2.9-31.8-8.4l-34.5-19.7c-4.3-2.5-7.6-6.5-9.2-11.2-3.2-9.6 1.1-20 10.2-24.5l5.9-3c6.6-3.3 14.3-3.9 21.3-1.5l23.2 7.7c8.2 2.7 17.2-.4 21.9-7.5 4.7-7 4.2-16.3-1.2-22.8l-13.6-16.3c-10-12-9.9-29.5.3-41.3l15.7-18.3c8.8-10.3 10.2-25 3.5-36.7l-2.4-4.2c-3.5-.2-6.9-.3-10.4-.3-92.8 0-171.5 60.9-198.2 145zM464 256c0-36.8-9.6-71.4-26.4-101.5L412 164.8c-15.7 6.3-23.8 23.8-18.5 39.8l16.9 50.7c3.5 10.4 12 18.3 22.6 20.9l29.1 7.3c1.2-9 1.8-18.2 1.8-27.5zM0 256a256 256 0 1 1 512 0 256 256 0 1 1-512 0z"/></svg>
@@ -262,7 +273,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cryptography/." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -279,17 +290,19 @@
       
   
   
+    
   
   
+  
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
@@ -303,7 +316,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             homework
@@ -317,7 +330,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cryptography/homework/chap01/" class="md-nav__link">
+      <a href="../chap01/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -338,7 +351,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cryptography/homework/chap02/" class="md-nav__link">
+      <a href="../chap02/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -356,10 +369,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="/cryptography/homework/chap03/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    chap03
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -368,6 +401,44 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#31" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.1
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#32" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -422,7 +493,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/cryptography/note/chap02/" class="md-nav__link">
+      <a href="../../note/chap02/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -460,6 +531,34 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#31" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.1
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#32" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -471,8 +570,84 @@
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+  
+  
+
+
+<h1 id="chap03">chap03<a class="headerlink" href="#chap03" title="Permanent link">&para;</a></h1>
+<p>[陈永俊] [522031910203]</p>
+<p><img alt="chap03" src="../../img/chap03.png" /></p>
+<h2 id="31">3.1<a class="headerlink" href="#31" title="Permanent link">&para;</a></h2>
+<p>$$
+\begin{aligned}
+    LE_{i} &amp; = RE_{i-1}\cr
+    RE_{i} &amp; = LE_{i-1} \oplus F(RE_{i-1},K_{i})\cr
+    &amp; = LE_{i-1} \oplus F(LE_{i},K_{i})\cr
+    \implies RE_{i} &amp; = LE_{i+1}\cr
+    LE_{i} &amp; = RE_{i+1} \oplus F(LE_{i+1},K_{i+1})\cr
+    &amp; = RE_{i} \oplus F(RE_{i},K_{i+1})\cr
+    \text{until } i &amp; = 0 \text{ we get the plaintext}
+\end{aligned}
+$$</p>
+<p>由上述推导知，只要把加密算法中对LE和RE的操作对调(或者在进入加密算法前把LE和RE对调，算法结束再换回来)，以及$K_{i}$反序使用，就可解密出明文。</p>
+<h2 id="32">3.2<a class="headerlink" href="#32" title="Permanent link">&para;</a></h2>
+<p>$$
+\begin{aligned}
+    c(x)\oplus c(y) &amp; = x \oplus 1 \oplus y \oplus 1\cr
+    &amp; = x \oplus y \oplus 1 \oplus 1\cr
+    &amp; = x \oplus y\cr
+\end{aligned}
+$$</p>
+<p>对于置换$PO$(包括$IP,IP^{-1},E,PC1,PC2,LS,P$)：</p>
+<p>$$
+\begin{aligned}
+    PO(c(x)) &amp; = c(PO(x))\cr
+\end{aligned}
+$$</p>
+<p>设密钥生成算法为KG</p>
+<p>$$
+\begin{aligned}
+    \lbrace K_1,k_2,...,K_{16}\rbrace &amp; = KG(K)\cr
+    \lbrace c(K_{1}),c(K_{2}),...,c(K^{16})\rbrace &amp; = KG(c(K))\cr
+\end{aligned}
+$$</p>
+<p>DES的单轮为：</p>
+<p>$$
+\begin{aligned}
+    L_{i} = R_{i-1}\cr
+    R_{i} = L_{i-1} \oplus F(R_{i-1},K_{i})\cr
+    F(R_{i-1},K_{i})  = P(S(E(R_{i-1})\oplus K_{i}))\cr
+\end{aligned}
+$$</p>
+<p>最后证明：</p>
+<p>$$
+\begin{aligned}
+    y' = c(y)\cr
+    \iff L_{i} = c(L_{i}') \And R_{i} = c (R_{i}')\cr
+    \iff R_{i-1} = c(R_{i-1}') \And L_{i-1} \oplus P(S(E(R_{i-1})\oplus K_{i}))  = c(L_{i-1}' \oplus P(S(E(R_{i-1}')\oplus K_{i}')))\cr
+    \iff P(S(E(R_{i-1})\oplus K_{i})) = P(S(E(R_{i-1}')\oplus K_{i}')) \quad (\text{assume } L_{i-1} = c(L_{i-1}') \And R_{i-1} = c(R_{i-1}'))\cr
+    \iff E(R_{i-1})\oplus K_{i} = E(R_{i-1}')\oplus K_{i}'\cr
+    \iff E(R_{i-1})\oplus K_{i} = c(E(R_{i-1}))\oplus c(K_{i})\cr
+\end{aligned}
+$$</p>
+<p>因为$i=0$时, $L_{i-1} = c(L_{i-1}') \And R_{i-1} = c(R_{i-1}')$所以$y' = c(y)$。</p>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+                
               </article>
             </div>
           
@@ -484,6 +659,44 @@
       
         <footer class="md-footer">
   
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="页脚" >
+        
+          
+          <a href="../chap02/" class="md-footer__link md-footer__link--prev" aria-label="上一页: chap02">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                上一页
+              </span>
+              <div class="md-ellipsis">
+                chap02
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../../note/chap02/" class="md-footer__link md-footer__link--next" aria-label="下一页: chap02">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                下一页
+              </span>
+              <div class="md-ellipsis">
+                chap02
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
     
   
   <div class="md-footer-meta md-typeset">
@@ -527,12 +740,12 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "/cryptography/", "features": ["content.code.copy", "navigation.footer"], "search": "/cryptography/assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.copy", "navigation.footer"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
     
     
-      <script src="/cryptography/assets/javascripts/bundle.fe8b6f2b.min.js"></script>
+      <script src="../../assets/javascripts/bundle.fe8b6f2b.min.js"></script>
       
-        <script src="/cryptography/javascripts/katex.js"></script>
+        <script src="../../javascripts/katex.js"></script>
       
         <script src="https://unpkg.com/katex@0/dist/katex.min.js"></script>
       
