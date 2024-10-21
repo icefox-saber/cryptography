@@ -1,6 +1,6 @@
 # chap01
 
-[在静态文档中查看本文件](https://icefox-saber.github.io/cryptography/homework/chap01)
+[陈永俊] [522031910203]
 
 ## 1.1
 

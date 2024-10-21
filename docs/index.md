@@ -21,5 +21,5 @@ Licensed under the MIT License.
 ## Markdown with latex and chinese to pdf
 
 ```shell
-pandoc chap02.md -o chap02.pdf --pdf-engine=xelatex --variable CJKmainfont="Noto Sans Mono CJK TC"
+pandoc src.md -o res.pdf --pdf-engine=xelatex --variable CJKmainfont="Noto Sans Mono CJK TC"
 ```
