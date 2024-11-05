@@ -2,42 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://icefox-saber.github.io/cryptography/</loc>
-         <lastmod>2024-10-28</lastmod>
+         <lastmod>2024-11-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://icefox-saber.github.io/cryptography/homework/chap01/</loc>
-         <lastmod>2024-10-28</lastmod>
+         <lastmod>2024-11-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://icefox-saber.github.io/cryptography/homework/chap02/</loc>
-         <lastmod>2024-10-28</lastmod>
+         <lastmod>2024-11-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://icefox-saber.github.io/cryptography/homework/chap03/</loc>
-         <lastmod>2024-10-28</lastmod>
+         <lastmod>2024-11-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://icefox-saber.github.io/cryptography/homework/chap04/</loc>
-         <lastmod>2024-10-28</lastmod>
+         <lastmod>2024-11-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://icefox-saber.github.io/cryptography/homework/chap05/</loc>
-         <lastmod>2024-10-28</lastmod>
+         <lastmod>2024-11-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://icefox-saber.github.io/cryptography/homework/chap06/</loc>
-         <lastmod>2024-10-28</lastmod>
+         <lastmod>2024-11-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://icefox-saber.github.io/cryptography/homework/chap07/</loc>
+         <lastmod>2024-11-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://icefox-saber.github.io/cryptography/note/chap02/</loc>
-         <lastmod>2024-10-28</lastmod>
+         <lastmod>2024-11-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
