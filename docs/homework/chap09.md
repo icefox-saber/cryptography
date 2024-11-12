@@ -25,6 +25,6 @@ $$
     & = M^{k*(p-1)(q-1)+1} \, mod \,p\\
     & = M  \, mod \,p\\
     q \text{ 同理 }\\
-    由 CRT，M^{ed} & = M(mod \, n)\\
+    \text{由 } CRT,M^{ed} & = M(mod \, n)\\
 \end{aligned}
 $$
